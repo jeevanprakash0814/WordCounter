@@ -23,7 +23,7 @@ public class WordCounter {
         try
         {
             inputStr = inputScanner.nextLine();
-            inputWriter = new FileWriter("src/inputText.txt");
+            inputWriter = new FileWriter("inputText.txt");
             inputWriter.write(inputStr);
             inputScanner.close();
             inputWriter.close();
