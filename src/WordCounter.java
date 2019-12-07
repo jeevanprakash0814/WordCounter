@@ -6,7 +6,7 @@ public class WordCounter {
 
     public WordCounter()
     {
-        System.out.println(totalWords());
+        System.out.println(totalWords() + " Words.");
     }
 
     private static int totalWords()
@@ -23,7 +23,7 @@ public class WordCounter {
         try
         {
             inputStr = inputScanner.nextLine();
-            inputWriter = new FileWriter("/Users/jeevanprakash/Documents/IdeaProjects/WordCounter/inputText.txt");
+            inputWriter = new FileWriter("src/inputText.txt");
             inputWriter.write(inputStr);
             inputScanner.close();
             inputWriter.close();
