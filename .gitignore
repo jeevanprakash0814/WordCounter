@@ -1,0 +1,4 @@
+## Unneccessary files that need to be ignored with pushing code to Git
+/WordCounter.iml
+/out/
+/.idea/
