@@ -37,7 +37,7 @@ public class WordCounter {
     private static int wordsInLine(String str)
     {
         if(str.equals("")) return 0;
-        String[] words = str.split(" ");
+        String[] words = str.trim().split(" ");
         return words.length;
     }
 
